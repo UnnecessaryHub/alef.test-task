@@ -1,16 +1,18 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import FormView from '../views/FormView.vue'
+import { createRouter }     from 'vue-router'
+import { createWebHistory } from 'vue-router'
+
+import FormView             from '../views/FormView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
-      path: '/',
+      path: '/alef.test-task/form',
       name: 'form',
       component: FormView
     },
     {
-      path: '/preview',
+      path: '/alef.test-task/preview',
       name: 'preview',
       component: () => import('../views/PreviewView.vue')
     }

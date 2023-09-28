@@ -4,8 +4,8 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <nav class="nav">
-    <RouterLink to="/" class="nav__link">Форма</RouterLink>
-    <RouterLink to="/preview" class="nav__link">Превью</RouterLink>
+    <RouterLink to="/alef.test-task/form" class="nav__link">Форма</RouterLink>
+    <RouterLink to="/alef.test-task/preview" class="nav__link">Превью</RouterLink>
   </nav>
 </template>
 

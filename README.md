@@ -1,5 +1,5 @@
 ## Тестовое задание компании Alef Development
-### [👋 Демо](https://unnecessaryhub.github.io/alef.test-task)
+### [👋 Демо](https://unnecessaryhub.github.io/alef.test-task/form)
 
 ### Запуск проекта
 ```

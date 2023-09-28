@@ -15,6 +15,11 @@ const router = createRouter({
       path: '/alef.test-task/preview',
       name: 'preview',
       component: () => import('../views/PreviewView.vue')
+    },
+    {
+      path: '/alef.test-task',
+      name: 'fqweorm',
+      component: FormView
     }
   ]
 })

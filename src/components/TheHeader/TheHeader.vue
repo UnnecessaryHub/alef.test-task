@@ -5,7 +5,7 @@ import TheMenu from '../TheMenu/TheMenu.vue'
 <template>
   <header class="header">
     <div class="container header__container">
-      <router-link to="/form" class="header__logo">
+      <router-link to="/alef.test-task/form" class="header__logo">
         <MainLogo />
       </router-link>
       <TheMenu />

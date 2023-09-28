@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  max-width: 1222px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 0 20px;
+
+  &--s {
+    max-width: 900px;
+  }
+}
+
+.content {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.title {
+  font: normal 500 16px / 150% 'Montserrat';
+}
